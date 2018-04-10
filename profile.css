@@ -1,3 +1,6 @@
+/*
+
+*/
 body {
     background-image: url(https://webster.cs.washington.edu/images/hw02/background.png);
     background-repeat: repeat;
@@ -35,4 +38,55 @@ main {
     width: 200px;
     margin-top: 90%;
     margin-left: -2%;
+}
+
+h1 {
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 10px;
+    text-shadow: 3px 3px 1px #999999;
+}
+
+.content {
+    padding: 0% 5% 2% 5%;
+    display: flex;
+}
+
+#info {
+    flex-direction: row;
+}
+
+#endorsement {
+    flex-direction: row-reverse;
+}
+
+#friends {
+    flex-direction: column;
+}
+
+.text_box {
+    flex-basis: 50%;
+}
+
+.image_box {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_box img {
+    width: 30vw;
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.info_box {
+    display: flex;
+    justify-content: space-around
+}
+
+.info_text {
+    flex-basis: 40%;
 }
