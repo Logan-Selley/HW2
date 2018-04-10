@@ -42,7 +42,6 @@ main {
 
 h1 {
     font-family: 'Rammetto One', cursive;
-    text-align: center;
     font-size: 3vw;
     padding-top: 10px;
     text-shadow: 3px 3px 1px #999999;
@@ -58,6 +57,9 @@ h1 {
 }
 
 #endorsement {
+    background-image: url(https://webster.cs.washington.edu/images/hw02/clouds.png);
+    background-color: skyblue;
+    background-repeat: repeat;
     flex-direction: row-reverse;
 }
 
@@ -89,4 +91,28 @@ h1 {
 
 .info_text {
     flex-basis: 40%;
+}
+
+h2 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 2.5vw;
+}
+
+.endorsement_text {
+    background-color: white;
+    border-left: 10px solid #cccaca;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+h1, h2, .endorsement_text {
+    text-align: center;
+}
+
+span {
+    font-style: italic; 
+}
+
+.endorsement_text hr {
+    width: 40%;
 }
