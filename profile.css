@@ -6,10 +6,15 @@ HW2 CSS
 
 CSS to style a page describing DD the debugging dragon
 */
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
 body {
     background-image: url(https://webster.cs.washington.edu/images/hw02/background.png);
     font-family: 'Bree Serif', serif;
 }
+
 
 main {
     width: 80%;
